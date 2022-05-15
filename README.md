@@ -1,6 +1,4 @@
 # BILLIE
-A Pytorch implementation of Bi-level Identification of Equations (coming soon)
-
 This is a primitive sample code for the paper "Bi-level identification of complex dynamical systems through reinforcement 
 learning" for initial submitting.
 A more mature version of BILLIE will be publicly available on github after the paper is accepted.
@@ -28,3 +26,5 @@ Instance2: identifying the 2D Navier-Stokes equation with a Reynolds number of 1
                                                          v_t = 0.001*v_xx + 0.001*v_yy - p_y - 0.1*v - v*v_x - u*v_y
     To run this case on cpu, run: python main.py --data Navier-Stokes
     To run this case on gpu, run: python main.py --data Navier-Stokes --gpu 0
+
+A more mature version of BILLIE will be available when the paper is published.
