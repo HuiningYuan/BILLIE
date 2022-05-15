@@ -9,7 +9,7 @@ This demo code contains two instances of identifying the burgers' equation and t
 approach, named BILLIE (Bi-level identification of equations). 
 
 Requirements
-This Python code is tested under the following environment:
+This Python code was tested under the following environment:
 Python==3.8.5
 Pytorch==1.7.1
 numpy==1.20.3
